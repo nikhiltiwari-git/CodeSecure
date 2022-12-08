@@ -92,6 +92,7 @@ footer a {
   align-self: center;
 }
 
+
 .joinBtn:hover,
 .leaveBtn:hover {
   background: #8B7E74;
@@ -162,8 +163,8 @@ footer a:hover {
   margin-top: 20px;
 }
 .CodeMirror {
-  min-height: calc(100vh - 20px);
+  min-height: 95vh;
   font-size: 20px;
-  line-height: 1.6;
+  line-height: 1.5;
   padding-top: 20px;
 }

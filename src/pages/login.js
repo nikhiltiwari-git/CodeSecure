@@ -1,11 +1,11 @@
 import React from "react";
-import "./login.css";
+import "./style.css";
 import Sign from "./Sign";
 
 function Login() {
 
   return (
-    
+
     <div className="login">
       <div className="bg"></div>
       <div className="bg bg2"></div>
@@ -21,12 +21,8 @@ function Login() {
       <h2 className="loginh2">
         Let's Jump Straight into it
       </h2>
-      
-      <h2 className="loginh2">
-        <i class="fas fa-angle-down"></i>
-      </h2>
-    
-      <Sign/>
+
+      <Sign />
     </div>
   );
 }
